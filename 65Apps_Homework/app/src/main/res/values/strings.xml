@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">65Apps_Homework</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name ="contact_list">Список контактов</string>
+    <string name ="phones">Телефоны:</string>
+    <string name ="emails">Emails:</string>
+    <string name ="contact_description">Описание контакта:</string>
+    <string name ="id"> id9829012</string>
+    <string name ="contact_details">Детали контакта - </string>
+
+    <string name ="full_contact_description">Большой Шлёпа - мой замечательный друг. Мы частенько вместе едим ПЕЛЬМЕНИ. Главное, говорит Большой Шлёпа, чтобы в пельменях было много мяса и мало теста.</string>
+    <string name ="name">Большой Шлёпа</string>
+    <string name ="phone_number">+89829326574</string>
+    <string name ="second_phone_number">+8965723840</string>
+    <string name ="contact_emails">bigfloppa@yandex.ru</string>
+    <string name ="contact_emails2">coceycola@gmail.com</string>
 </resources>

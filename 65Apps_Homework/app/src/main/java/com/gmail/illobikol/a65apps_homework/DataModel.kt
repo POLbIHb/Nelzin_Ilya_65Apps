@@ -16,7 +16,4 @@ class DataModel : ViewModel() {
     val phone: MutableLiveData<String> by lazy {
         MutableLiveData<String>()
     }
-    val picture: MutableLiveData<String> by lazy {
-        MutableLiveData<String>()
-    }
 }
