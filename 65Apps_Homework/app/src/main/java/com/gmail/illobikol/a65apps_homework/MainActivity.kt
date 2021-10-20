@@ -1,14 +1,16 @@
 package com.gmail.illobikol.a65apps_homework
 
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.viewModels
-import androidx.core.os.bundleOf
 import com.gmail.illobikol.a65apps_homework.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -19,8 +21,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+//
+//        val intent = Intent(this, MyService::class.java)
+//        startService(intent)
+
         supportActionBar?.title = "Список контактов"
         dataModel.check.value = check
 
@@ -44,6 +51,11 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    }
+
+
+    fun Context.toast(message: String) {
+        Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
     }
 
 
